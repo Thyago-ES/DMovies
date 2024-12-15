@@ -2,7 +2,7 @@
 
 ## Live application:
 
-[https://d-movies-two.vercel.app/](https://d-movies-two.vercel.app/)
+[https://dmovies-fun.vercel.app/](https://dmovies-fun.vercel.app/)
 
 ## Sobre o projeto
 
@@ -18,13 +18,13 @@ Com ele, você pode ver os filmes que estão em tendência, pesquisar por outros
 
 ## Estrutura de pastas
 
-/src         # Código-fonte da aplicação  
-&nbsp;&nbsp;  /assets &nbsp;&nbsp;        # Imagens utilizadas na aplicação  
-&nbsp;&nbsp;  /components &nbsp;&nbsp;    # Componentes reutilizáveis  
-&nbsp;&nbsp;  /layouts &nbsp;&nbsp;       # Componentes para layout  
-&nbsp;&nbsp;  /pages &nbsp;&nbsp;         # Páginas da aplicação  
-&nbsp;&nbsp;  /services &nbsp;&nbsp;      # Funções para chamada da API  
-&nbsp;&nbsp;  /types &nbsp;&nbsp;         # Custom types  
+/src # Código-fonte da aplicação  
+&nbsp;&nbsp; /assets &nbsp;&nbsp; # Imagens utilizadas na aplicação  
+&nbsp;&nbsp; /components &nbsp;&nbsp; # Componentes reutilizáveis  
+&nbsp;&nbsp; /layouts &nbsp;&nbsp; # Componentes para layout  
+&nbsp;&nbsp; /pages &nbsp;&nbsp; # Páginas da aplicação  
+&nbsp;&nbsp; /services &nbsp;&nbsp; # Funções para chamada da API  
+&nbsp;&nbsp; /types &nbsp;&nbsp; # Custom types
 
 ## Tecnologias Utilizadas
 
