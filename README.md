@@ -33,7 +33,7 @@ Com ele, você pode ver os filmes que estão em tendência, pesquisar por outros
 -  **Typescript**: Um superset de JavaScript que adiciona tipagem estática opcional.
 -  **Tailwind CSS**: Um framework CSS utilitário para criar interfaces de usuário rapidamente.
 -  **Axios**: Uma biblioteca JavaScript para fazer requisições HTTP.
--  **API TheMongoDB**: Uma API que disponibiliza listas e detalhes de filmes.
+-  **API TheMovieDB**: Uma API que disponibiliza listas e detalhes de filmes.
 
 ## Rodando localmente
 
