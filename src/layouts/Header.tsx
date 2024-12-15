@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 import { GoSearch } from "react-icons/go";
@@ -13,17 +13,16 @@ export function Header() {
 		setMovie("");
 	};
 
+	const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+		if (e.key === "Enter") {
+			searchMovie();
+		}
+	};
+
 	return (
 		<header className="flex flex-col w-full items-center py-5 gap-8 border-b border-white border-opacity-40 md:flex-row md:justify-between md:px-8">
-			<Link
-				to="/"
-				className="flex text-3xl items-center"
-			>
-				<img
-					src="/DMovie-logo.png"
-					alt="Logo"
-					className="w-16"
-				/>
+			<Link to="/" className="flex text-3xl items-center">
+				<img src="/DMovie-logo.png" alt="Logo" className="w-16" />
 				DMovies
 			</Link>
 			<div className="flex relative border border-white w-full max-w-80">
@@ -33,6 +32,7 @@ export function Header() {
 					value={movie}
 					onChange={(e) => setMovie(e.target.value)}
 					className="w-full h-9 text-bg-color indent-1"
+					onKeyDown={handleKeyDown}
 				/>
 				<button
 					onClick={searchMovie}
